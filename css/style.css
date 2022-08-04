@@ -1,0 +1,233 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #212529;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	background-color: #212529;
+	color: #fff;
+}
+.container {
+	width: 900px;
+	display: flex;
+	flex-direction: column;
+}
+h1 {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-size: 35px;
+}
+h2 {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-size: 18px;
+	color: #fff;
+}
+.linha {
+    border-bottom: 3px solid #FF0000;
+    width: 40px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+}
+header p {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+section	{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+#background {
+	background-image: url('../img/background_campo.jpg');
+	background-size: cover;
+	background-position: top;
+    opacity: 0.5;
+}
+.imagem_cristiano {
+    width: 400px;
+    height: 600px;
+    border-radius: 40px;
+}
+.first-content {
+	width: 360px;
+	height: auto;
+	border-radius: 5px;	
+	display: flex;
+	margin: auto;
+}
+.content {
+	color: #fff;
+}
+.content p,
+.content li {
+	font-size: 15px;
+	text-align: justify;
+}
+.content h3 {
+	font-size: 15px;
+}
+.final-content {
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+}
+.final-content p {
+	padding-right: 30px;
+    padding-top: 60px;
+
+}
+.final-content img {
+	margin-top: 15px;
+	border-radius: 5px;
+    border-radius: 40px;
+}
+footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	border-top: 1px solid #fff;
+}
+.rodape {
+	display: flex;
+	margin: auto;
+	text-align: center;
+	color: #fff;
+	font-size:13px;
+}
+.rodape a {
+	text-decoration: none;
+	padding-left: 2px;
+	color: #fff;
+	font-weight: bold;
+}
+@media (max-width:600px) {
+    #background {
+        width: auto;
+        height: 200px;
+    }
+    header h2 {
+        font-size: 12px;
+        width: 500px;
+        margin-left: 50px;
+        margin-right: 5px;
+    }
+    .imagem_cristiano {
+        width: 300px;
+        height: 400px;
+        background-position: center;
+        margin-left: 20px;
+    }
+    p {
+        width:530px;
+        text-align: center;
+        margin-left:170px;
+        margin-right: 20px;
+    }
+    .linha {
+        width:25px;
+        text-align: center;
+        margin-left:170px;
+        margin-right: 20px;
+    }
+    ul, li {
+        width:300px;
+        text-align: center;
+        margin-left:100px;
+        margin-right: 20px;
+    }
+
+    .final-content h2 {
+        text-align: center;
+        margin-left:170px;
+    }
+    .final-content p {
+        font-size: 16px;
+        width: 500px;
+        margin-left: 5px;
+        margin-right: 200px;
+        padding-top: 70px;
+    }
+    .final-content img {
+        display: none !important; 
+    }
+    .rodape {
+        display: none !important; 
+    }
+}
+@media (max-width:320px) {
+    #background {
+        width: 500px;
+        height: 200px;
+    }
+    header h2 {
+        font-size: 15px;
+        width: 480px;
+        margin-left: 50px;
+        margin-right: 80px;
+    }
+    .imagem_cristiano {
+        width: 300px;
+        height: 400px;
+        background-position: center;
+        margin-left: 100px;
+    }
+    .content h2 {
+        width:530px;
+        text-align: center;
+        margin-left: 250px;
+        margin-right: 20px;
+    }
+    p {
+        width:380px;
+        text-align: center;
+        margin-left:330px;
+    }
+  
+    .linha {
+        width:30px;
+        text-align: center;
+        margin-left:330px;
+        margin-right: 20px;
+    }
+    ul, li {
+        width:300px;
+        text-align: center;
+        margin-left:200px;
+        margin-right: 20px;
+    }
+
+    .final-content h2 {
+        text-align: center;
+        margin-left:170px;
+    }
+    .final-content p {
+        font-size: 16px;
+        width:300px;
+        margin-left: 170px;
+        margin-right: 200px;
+        padding-top: 20px;
+    }
+    .final-content img {
+        display: none !important; 
+    }
+    footer {
+        display: flex;
+    }
+    .rodape {
+        flex-direction: row;
+        text-align: center;
+        margin-left: 170px;
+        padding-bottom: 50px;
+        color: #FF0000;
+    }   
+}
+
